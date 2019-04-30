@@ -1,0 +1,10 @@
+﻿name,type,name_eng,name_standard,name_traditional,default_axis,is_default_value,min_years,max_years,step_alt,min_value,max_value,is_percentage,no_formatting,units_eng,units_standard,units_traditional,is_prefix,desc_eng,desc_standard,desc_traditional,hint_standard,hint_traditional,needs_average_line,is_logged_default,lower_is_better,comparison_countries
+title,title,,,,,,,,,,,,,,,,,,,,,,,,,
+world_bank_classification,color,World Bank Income Level,,,c,1,,,,,,,,,,,,,,,,,,,,
+region_eng,color,Regions,,,c,,,,,,,,,,,,,,,,,,,,,
+gdp_ppp,econ,Gross Domestic Product (PPP),,,r,1,1990,2017,,,,,,,,,,,,,,,,,,
+population,Social,Population,,,r,,1990,2017,,,,,,People,,,,,,,,,1,,,
+gni_per_capita,Income,GNI per capita,,,x,1,1990,2017,,,,,,$,,,1,,,,,,,1,,
+gdp_per_capita_ppp,Income,GDP per capita (PPP),,,x,,1990,2017,,,,,,$,,,1,,,,,,,1,,
+life_expectancy,Indicator,Life Expectancy,,,y,1,1990,2016,,,,,,Years,,,,"Life expectancy is a key social development indicator that provides an important summary of mortality conditions within countries. China has made considerable strides in raising the average life expectancy across the country from 69.3 years in 1990 to 76.3 years in 2016. Despite this increase of 7 years, life expectancy in China still falls 4.5 years short of the average of 80.8 years found in OECD countries. <a href=""https://chinapower.csis.org/life-expectancy/""> Learn more.</a>",,,,,1,,,ARG;IND;JPN;ZAF;USA
+mortality_rate_under_5,Indicator,Under 5 Mortality Rate,,,y,,1990,2017,,,,,,"Per 1,000 live births",,,,"Under-five mortality measures the number of deaths that occur before the age of 5 per 1,000 live births. Since 1990, China has dramatically reduced child mortality, from 53.9 deaths per 1,000 live births to 9.3 in 2017. This rate is still higher than the average for OECD economies (4.37 deaths), but significantly lower than its neighbors like India (39.4 deaths) and Pakistan (74.9 deaths).",,,,,1,,1,IND;JPN;NOR;PAK;ZAF

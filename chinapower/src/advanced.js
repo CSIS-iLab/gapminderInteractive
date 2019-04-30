@@ -1,6 +1,6 @@
 import * as plot from './js/createPlot'
-import Data from './data/advanced-data-20190319.csv'
-import Indicators from './data/advanced-indicators-20190319.csv'
+import Data from './data/advanced-data-2019430.csv'
+import Indicators from './data/advanced-indicators-2019430.csv'
 import './scss/main.scss'
 import intro from 'intro.js'
 import translations from './js/translations'
