@@ -1,7 +1,5 @@
 import * as plot from "./js/createPlot";
-// import Data from "./data/advanced-data-2019430.csv";
 import Data from "./data/advanced-data-20200731.csv";
-// import Indicators from "./data/advanced-indicators-2019430.csv";
 import Indicators from "./data/advanced-indicators-20200731.csv";
 import "./scss/main.scss";
 import intro from "intro.js";
