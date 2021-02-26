@@ -526,7 +526,6 @@ function createPlot (args) {
         if (i == minYear) {
           prevYear = i
         }
-
         data.countries[iso].years[i].prevX = data.countries[iso].years[prevYear][currentAxes.x.name] || data.countries[iso].years[i][currentAxes.x.name]
         data.countries[iso].years[i].prevY = data.countries[iso].years[prevYear][currentAxes.y.name] || data.countries[iso].years[i][currentAxes.y.name]
       }
@@ -624,8 +623,8 @@ function createPlot (args) {
       },
       pips: {
         mode: 'count',
-        values: 6,
-        density: 4
+        values: 4,
+        density: 10
       },
       format: {
         to: function (value) {
